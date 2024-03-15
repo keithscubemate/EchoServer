@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EchoServer", "EchoServer\EchoServer.fsproj", "{695AD281-E58F-474D-A090-8B40568BC09A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EchoClient", "EchoClient\EchoClient.fsproj", "{580FD844-0D1F-47E7-85C7-AC82195F543F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{695AD281-E58F-474D-A090-8B40568BC09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695AD281-E58F-474D-A090-8B40568BC09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695AD281-E58F-474D-A090-8B40568BC09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695AD281-E58F-474D-A090-8B40568BC09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580FD844-0D1F-47E7-85C7-AC82195F543F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580FD844-0D1F-47E7-85C7-AC82195F543F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580FD844-0D1F-47E7-85C7-AC82195F543F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580FD844-0D1F-47E7-85C7-AC82195F543F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
