@@ -30,6 +30,7 @@ let listenerLoop (listener: TcpListener) = async {
 [<EntryPoint>]
 let main(args) =
     if (args.Length <> 1) then
+        printfn "Usage: server [port]"
         exit 1
     let addr = IPAddress.Any
     let port = args[0] |> int

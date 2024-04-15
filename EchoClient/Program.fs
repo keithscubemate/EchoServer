@@ -14,13 +14,14 @@ let clientLoop (client: TcpClient, read: StreamReader, write: StreamWriter) =
             client.Close()
             exit 0
         | _ ->
-            write.WriteLine(input)
+            write.WriteLine(input.Trim())
             let output = read.ReadLine()
             printfn $"%s{output}"
-        
+
 [<EntryPoint>]
 let main(args) =
     if (args.Length <> 2) then
+        printfn "Usage: client [addr] [port]"
         exit 1
     let addr = IPAddress.Parse(args[0])
     let port = args[1] |> int
